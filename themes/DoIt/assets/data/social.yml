@@ -1,0 +1,48 @@
+# 01: Gmail
+gmail:
+  Weight: 1
+  Template: mailto:%v
+  Title: Gmail
+  Icon:
+    Src: svg/icons/gmail.svg
+
+# 02: Telegram
+telegram:
+  Weight: 2
+  Prefix: https://t.me/
+  Title: Telegram
+  Icon:
+    Src: svg/icons/telegram.svg
+
+# 03: Github
+github:
+  Weight: 3
+  Prefix: https://github.com/
+  Title: GitHub
+  Icon:
+    Src: svg/icons/github.svg
+
+# 04: Gitee
+gitee:
+  Weight: 4
+  Prefix: https://gitee.com/
+  Title: Gitee
+  Icon:
+    Src: svg/icons/gitee.svg
+
+# 04: Navigation
+navigation:
+  Weight: 5
+  Prefix: 
+  Title: Navigation
+  Icon:
+    Src: svg/icons/navigation.svg
+
+# 05: RSS
+rss:
+  Weight: 6
+  Url: /index.xml
+  Title: RSS
+  Newtab: true
+  Icon:
+    Src: svg/icons/rss.svg
