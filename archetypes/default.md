@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: false
-authors: ["BahuangShanren"]
+authors: ["AMENG"]
 lightgallery: true
 tags: []
 categories: []

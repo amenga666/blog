@@ -1,12 +1,6 @@
 {
-    "name": "八荒山人的博客",
-    "short_name": "八荒山人的博客",
-    "start_url": "/",
-    "description": "八荒山人的个人博客网站",
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
-    "orientation": "portrait",
-    "display": "standalone",
+    "name": "\u963f\u731b\u7684\u535a\u5ba2",
+    "short_name": "\u963f\u731b\u7684\u535a\u5ba2",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -17,12 +11,10 @@
             "src": "/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
-        },
-        {
-            "src": "/apple-touch-icon.png",
-            "sizes": "180x180",
-            "type": "image/png",
-            "purpose": "any maskable"
         }
-    ]
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "start_url": "https://ameng.pages.dev/",
+    "display": "standalone"
 }

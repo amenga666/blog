@@ -1,4 +1,4 @@
-baseURL = "https://www.bahuangshanren.tech"
+baseURL = "https://ameng.pages.dev/"
 # [en, zh-cn, fr, pl, ...] determines default content language
 # [en, zh-cn, fr, pl, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
@@ -11,14 +11,14 @@ themesDir = "themes/"
 
 # website title
 # 网站标题
-title = "八荒山人的博客"
+title = "阿猛的博客"
 
 # whether to use robots.txt
 # 是否使用 robots.txt
 enableRobotsTXT = true
 # whether to use git commit log
 # 是否使用 git 信息
-enableGitInfo = true
+enableGitInfo = false
 # whether to use emoji code
 # 是否使用 emoji 代码
 enableEmoji = true
@@ -66,15 +66,23 @@ enableEmoji = true
         url = "/categories/"
         title = ""
         weight = 3
+      [[languages.zh-cn.menu.main]]
+        identifier = "github"
+        pre = "<i class='fab fa-github fa-fw'></i>"
+        post = ""
+        name = ""
+        url = "https://github.com/amenga666"
+        title = "GitHub"
+        weight = 4
     [languages.zh-cn.params]
       # 网站描述
-      description = "八荒山人的博客"
+      description = "阿猛的博客"
       # 网站关键词
-      keywords = "八荒山人,bahuangshanren"
+      keywords = "阿猛,ameng"
       # 应用图标配置
       [languages.zh-cn.params.app]
         # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-        title = "八荒山人的博客"
+        title = "阿猛的博客"
         # 是否隐藏网站图标资源链接
         noFavicon = false
         # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
@@ -87,7 +95,7 @@ enableEmoji = true
       [languages.zh-cn.params.search]
         enable = true
         # 搜索引擎的类型 ("lunr", "algolia", "fuse")
-        type = "algolia"
+        type = "fuse"
         # 文章内容最长索引长度
         contentLength = 4000
         # 搜索框的占位提示语
@@ -101,9 +109,9 @@ enableEmoji = true
         # 是否在搜索索引中使用基于 baseURL 的绝对路径
         absoluteURL = false
         [languages.zh-cn.params.search.algolia]
-          index = "blog"
-          appID = "3GA4KWGMX9"
-          searchKey = "23867dbb6057498264da074f17e10163"
+          index = ""
+          appID = ""
+          searchKey = ""
         [languages.zh-cn.params.search.fuse]
           # https://fusejs.io/api/options.html
           isCaseSensitive = false
@@ -125,7 +133,7 @@ enableEmoji = true
           # Gravatar 邮箱，用于优先在主页显示的头像
           gravatarEmail = ""
           # 主页显示头像的 URL
-          avatarURL = "https://gitee.com/BahuangShanren/picture/raw/master/avatar/avatar-square.webp"
+          avatarURL = "https://cdn.jsdelivr.net/gh/amenga666/ameng@latest/assets/images/ameng.webp"
           # 主页显示的网站标题 (支持 HTML 格式)
           title = ""
           # 主页显示的网站副标题
@@ -133,7 +141,7 @@ enableEmoji = true
           # 是否为副标题显示打字机动画
           typeit = false
           # 是否显示社交账号
-          social = true
+          social = false
           # 免责声明 (支持 HTML 格式)
           disclaimer = ""
         # 主页文章列表
@@ -143,12 +151,9 @@ enableEmoji = true
           paginate = 7
       # 主页的社交信息设置
       [languages.zh-cn.params.social]
-        Gmail = "bahuangshanren@gmail.com"
-        Telegram = "bahuangshanren"
-        GitHub = "bahuangshanren"
-        Gitee = "bahuangshanren"
-        Navigation = "https://nav.bahuangshanren.tech/"
-        RSS = true
+        GitHub = "amenga666"
+        Gitee = "amenga666"
+        RSS = false
         # 赞助设置
       [languages.zh-cn.params.sponsor]
         enable = false
@@ -160,7 +165,7 @@ enableEmoji = true
 [params]
   # website title
   # 网站标题
-  title = "八荒山人的博客"
+  title = "阿猛的博客"
   # DoIt theme version
   # DoIt 主题版本
   version = "0.2.X"
@@ -169,7 +174,7 @@ enableEmoji = true
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
-  gitRepo = "https://github.com/BahuangShanren/blog"
+  gitRepo = "https://github.com/amenga666/ameng"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
   # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
@@ -178,7 +183,7 @@ enableEmoji = true
   dateFormat = "2006-01-02"
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
-  images = ["/images/avatar.webp"]
+  images = ["/images/ameng.webp"]
   # enable PWA
   # 开启 PWA 支持
   enablePWA = false
@@ -207,7 +212,7 @@ enableEmoji = true
       logo = ""
       # title name
       # 标题名称
-      name = "八荒山人的博客"
+      name = "阿猛的博客"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = ""
@@ -224,7 +229,7 @@ enableEmoji = true
     enable = true
     # Custom content (HTML format is supported)
     # 自定义内容 (支持 HTML 格式)
-    # custom = '<br><br><br><a href="https://gohugo.io" target="_blank" rel="noopener noreffer"><img src="https://img.shields.io/badge/Frame-Hugo-blue?style=flat&color=FF4088"></a> <a href="https://github.com/HEIGE-PCloud/DoIt" target="_blank" rel="noopener noreffer"><img src="https://img.shields.io/badge/Theme-DoIt-blue?style=flat&color=0594CB"></a> <a href="https://docs.github.com/en/pages/" target="_blank" rel="noopener noreffer"><img src="https://img.shields.io/badge/Host-GitHub-blue?style=flat&color=33BA91"></a> <a href="https://www.cloudflare.com/" target="_blank" rel="noopener noreffer"><img src="https://img.shields.io/badge/CDN-Cloudflare-blue?style=flat&color=F38020"></a> <a href="https://www.bahuangshanren.tech" target="_blank" rel="noopener noreffer"><img src="https://img.shields.io/badge/©_2022-八荒山人-blue?style=flat&color=0594CB"></a> <a href="https://creativecommons.org/licenses/by-nc/4.0" target="_blank" rel="noopener noreffer"><img src="https://img.shields.io/badge/License-CC_BY--NC_4.0-blue?style=flat&color=EF9421"></a>'
+    custom = ''
     # whether to show Hugo and theme info
     # 是否显示 Hugo 和主题信息
     hugo = true
@@ -240,7 +245,7 @@ enableEmoji = true
     author = true
     # site creation time
     # 网站创立年份
-    since = 2020
+    since = 2022
     # ICP info only in China (HTML format is supported)
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
     icp = ""
@@ -310,12 +315,12 @@ enableEmoji = true
     linkToMarkdown = true
     # configure the link to view source the post
     # 配置文章原始文件的链接
-    linkToSource = "https://github.com/BahuangShanren/blog/blob/master/content/{path}"
+    linkToSource = ""
     # configure the link to edit the post
     # 配置编辑文章的链接
-    linkToEdit = "https://github.com/BahuangShanren/blog/edit/master/content/{path}"
+    linkToEdit = ""
     # 配置提交错误的链接
-    linkToReport = "https://github.com/BahuangShanren/blog/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/HEIGE-PCloud/DoIt/blob/main/exampleSite/content/{path}|"
+    linkToReport = ""
     # whether to show the full text content in RSS
     # 是否在 RSS 中显示全文内容
     rssFullText = false
@@ -385,7 +390,7 @@ enableEmoji = true
     [params.page.mapbox]
       # access token of Mapbox GL JS
       # Mapbox GL JS 的 access token
-      accessToken = "pk.eyJ1IjoiYmFodWFuZ3NoYW5yZW4iLCJhIjoiY2tlYTBpcTAzMDl3djJzazI2N3BnZ2o0NyJ9.DhMOTkU5coOnhSlL1M34dg"
+      accessToken = ""
       # style for the light theme
       # 浅色主题的地图样式
       lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true"
@@ -439,12 +444,12 @@ enableEmoji = true
     # Comment config
     # 评论系统设置
     [params.page.comment]
-      enable = true
+      enable = false
       # Twikoo comment config (https://twikoo.js.org/)
       # Twikoo comment 评论系统设置 (https://twikoo.js.org/)
       [params.page.comment.twikoo]
-        enable = true
-        envId = "twikoo-5g5ynvj52fd106ef"
+        enable = false
+        envId = ""
         region = ""
         path = ""
         visitor = true
@@ -476,12 +481,12 @@ enableEmoji = true
     [params.page.seo]
       # image URL
       # 图片 URL
-      images = ["/images/avatar.webp"]
+      images = ["/images/ameng.webp"]
       # Publisher info
       # 出版者信息
       [params.page.seo.publisher]
-        name = "八荒山人"
-        logoUrl = "/images/avatar-square.webp"
+        name = "阿猛"
+        logoUrl = "/images/ameng.webp"
 
   # Sponsor config
   # 赞助设置
@@ -523,10 +528,10 @@ enableEmoji = true
   [params.seo]
     # image URL
     # 图片 URL
-    image = "/images/avatar.webp"
+    image = "/images/ameng.webp"
     # thumbnail URL
     # 缩略图 URL
-    thumbnailUrl = "/images/avatar.webp"
+    thumbnailUrl = "/images/ameng.webp"
 
   # Analytics config
   # 网站分析配置
@@ -633,10 +638,9 @@ enableEmoji = true
 # Author config
 # 作者配置
 [author]
-  name = "八荒山人"
-  email = "bahuangshanren@gmail.com"
-  link = "https://www.bahuangshanren.tech"
-  avatar = "/images/avatar.webp"
+  name = "阿猛"
+  link = "https://ameng.pages.dev/"
+  avatar = "/images/ameng.webp"
   gravatarEmail = ""
 
 # Sitemap config
