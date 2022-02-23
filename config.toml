@@ -1,4 +1,4 @@
-baseURL = "https://ameng.pages.dev/"
+baseURL = "https://amenga.netlify.app/"
 # [en, zh-cn, fr, pl, ...] determines default content language
 # [en, zh-cn, fr, pl, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
@@ -133,7 +133,7 @@ enableEmoji = true
           # Gravatar 邮箱，用于优先在主页显示的头像
           gravatarEmail = ""
           # 主页显示头像的 URL
-          avatarURL = "https://cdn.jsdelivr.net/gh/amenga666/ameng@latest/assets/images/ameng.webp"
+          avatarURL = "https://cdn.jsdelivr.net/gh/amenga666/blog@latest/assets/images/ameng.webp"
           # 主页显示的网站标题 (支持 HTML 格式)
           title = ""
           # 主页显示的网站副标题
@@ -174,7 +174,7 @@ enableEmoji = true
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
-  gitRepo = "https://github.com/amenga666/ameng"
+  gitRepo = "https://github.com/amenga666/blog"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
   # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
@@ -315,12 +315,12 @@ enableEmoji = true
     linkToMarkdown = true
     # configure the link to view source the post
     # 配置文章原始文件的链接
-    linkToSource = "https://github.com/amenga666/ameng/blob/master/content/{path}"
+    linkToSource = "https://github.com/amenga666/blog/blob/master/content/{path}"
     # configure the link to edit the post
     # 配置编辑文章的链接
-    linkToEdit = "https://github.com/amenga666/ameng/edit/master/content/{path}"
+    linkToEdit = "https://github.com/amenga666/blog/edit/master/content/{path}"
     # 配置提交错误的链接
-    linkToReport = "https://github.com/amenga666/ameng/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/HEIGE-PCloud/DoIt/blob/main/exampleSite/content/{path}|"
+    linkToReport = "https://github.com/amenga666/blog/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/HEIGE-PCloud/DoIt/blob/main/exampleSite/content/{path}|"
     # whether to show the full text content in RSS
     # 是否在 RSS 中显示全文内容
     rssFullText = false
@@ -639,7 +639,7 @@ enableEmoji = true
 # 作者配置
 [author]
   name = "阿猛"
-  link = "https://ameng.pages.dev/"
+  link = "https://amenga.netlify.app/"
   avatar = "/images/ameng.webp"
   gravatarEmail = ""
 
