@@ -3,11 +3,11 @@ title: "终端代理设置"
 date: 2020-05-21T20:00:00+08:00
 draft: false
 authors: ["BahuangShanren"]
-lightgallery: true
 tags: [命令行,Git,Linux,Windows]
 categories: [方案]
-images: []
-featuredImagePreview: ""
+images: [https://cdn.jsdelivr.net/gh/amenga666/picture@latest/Terminal.webp]
+featuredImage: "https://cdn.jsdelivr.net/gh/amenga666/picture@latest/Terminal.webp"
+featuredImagePreview: "https://cdn.jsdelivr.net/gh/amenga666/picture@latest/Terminal.webp"
 summary: Git、Linux与Windows的终端代理设置
 ---
 
